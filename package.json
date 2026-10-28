@@ -1,0 +1,12 @@
+{
+  "name": "smart-weather-monitoring-iot-dnn-genai",
+  "version": "1.0.0",
+  "description": "Smart Weather Monitoring and Environmental Prediction Using IoT, DNN and GenAI",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend start",
+    "start": "npm --prefix backend start",
+    "ml": "ml\\venv\\Scripts\\python ml/app.py"
+  }
+}

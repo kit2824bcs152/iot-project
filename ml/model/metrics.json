@@ -1,0 +1,35 @@
+{
+  "architecture": "Input(7) -> Dense(128) -> Dropout(0.2) -> Dense(64) -> Dropout(0.2) -> Dense(32) -> Output(4)",
+  "framework": "TensorFlow 2.21.0 / Keras",
+  "trainingSamples": 3999,
+  "testSamples": 1000,
+  "epochsTrained": 32,
+  "variables": {
+    "temperature": {
+      "mae": 1.291,
+      "mse": 2.552,
+      "rmse": 1.597,
+      "r2": 0.9311
+    },
+    "humidity": {
+      "mae": 3.33,
+      "mse": 16.881,
+      "rmse": 4.109,
+      "r2": 0.867
+    },
+    "pressure": {
+      "mae": 1.32,
+      "mse": 2.755,
+      "rmse": 1.66,
+      "r2": 0.8582
+    },
+    "aqi": {
+      "mae": 6.361,
+      "mse": 64.969,
+      "rmse": 8.06,
+      "r2": 0.4477
+    }
+  },
+  "overallR2Score": 0.776,
+  "overallAccuracy": "77.6%"
+}
